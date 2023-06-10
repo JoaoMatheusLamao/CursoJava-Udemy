@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class EstruturasCondicionais {
     public static void main(String[] args) {
 //        quantasHoras();
-        System.out.println(meses());
+//        System.out.println(meses());
+        expTernaria();
     }
 
     public static void quantasHoras(){
@@ -76,5 +77,11 @@ public class EstruturasCondicionais {
             break;
         }
         return mesExtenso;
+    }
+
+    public static void expTernaria(){
+        double preco = 20;
+        double desconto = (preco > 15)? preco*0.2 : preco*0.5;
+        System.out.println(preco+desconto);
     }
 }
