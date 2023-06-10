@@ -8,6 +8,7 @@ public class EntradaDados {
     public static void main(String[] args) {
 //        EntradaDados.entradaSimples();
 //        EntradaDados.exFx1();
+//        entradaQuebraLinha();
     }
 
     public static void entradaSimples() {
@@ -29,6 +30,21 @@ public class EntradaDados {
         System.out.println("Primeiro caracter da String");
         char xchar = sc.next().charAt(0);
         System.out.println("Você digitou: " + xchar);
+        sc.close();
+    }
+    public static void entradaQuebraLinha(){
+        Scanner sc = new Scanner(System.in);
+
+        String a, b, c;
+        int d;
+        d = sc.nextInt();
+        sc.nextLine();
+        a = sc.nextLine();
+        b = sc.nextLine();
+        c = sc.nextLine();
+        System.out.printf("esse cara: %s\n",a);
+        System.out.printf("... %s...\n",b);
+        System.out.printf("essa pessoinha: %s!!!\n",c);
         sc.close();
     }
     public static void exFx1(){
@@ -56,4 +72,5 @@ public class EntradaDados {
 
         sc.close();
     }
+
 }
