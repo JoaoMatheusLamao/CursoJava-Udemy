@@ -5,32 +5,28 @@ public class Triangle {
     public double b;
     public double c;
 
+    public double getA() {
+        return a;
+    }
 
-    //region Setters
-    public void setA(double a){
+    public void setA(double a) {
         this.a = a;
+    }
+
+    public double getB() {
+        return b;
     }
 
     public void setB(double b) {
         this.b = b;
     }
 
+    public double getC() {
+        return c;
+    }
+
     public void setC(double c) {
         this.c = c;
-    }
-    //endregion
-
-    //region Getters
-    public double getA() {
-        return this.a;
-    }
-
-    public double getB() {
-        return this.b;
-    }
-
-    public double getC() {
-        return this.c;
     }
 
     public double getArea(){
