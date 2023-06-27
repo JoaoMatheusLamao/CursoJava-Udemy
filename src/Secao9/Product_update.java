@@ -1,12 +1,20 @@
-package IntroducaoPOO;
+package Secao9;
 
-public class Product {
+public class Product_update {
+
     //region Atributos
-    public String name;
-    public int quantity;
-    public double price, valor_total;
+    private String name;
+    private int quantity;
+    private double price, valor_total;
     //endregion
 
+    //region Constructor
+    public Product_update(String name, int quantity, double price){
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+    }
+    //endregion
 
     //region Setters
     public void setName(String name) {
@@ -17,9 +25,6 @@ public class Product {
         this.price = price;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
     //endregion
 
     //region Getters
