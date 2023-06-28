@@ -1,4 +1,4 @@
-package Secao9;
+package SobrecargaEncapsulamento;
 
 import java.util.Locale;
 import java.util.Scanner;
