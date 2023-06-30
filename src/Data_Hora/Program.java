@@ -2,9 +2,25 @@ package Data_Hora;
 
 import java.time.*;
 import java.time.format.DateTimeFormatter;
+import java.util.Date;
 
 public class Program {
     public static void main(String[] args) {
+        ex2();
+
+    }
+
+    public static void ex2(){
+        LocalTime hora = LocalTime.now();
+        System.out.println();
+        LocalDate data = LocalDate.now();
+        System.out.println(data.getDayOfMonth());
+        System.out.println(hora.format(DateTimeFormatter.ofPattern("HH:mm")));
+
+        System.out.println(new Date());
+    }
+
+    public static void ex1(){
         LocalDate data1 = LocalDate.now();
         LocalTime time1 = LocalTime.now();
         LocalDateTime data2 = LocalDateTime.now();
@@ -34,6 +50,5 @@ public class Program {
 
         System.out.println("Hoje é: " + DateTimeFormatter.ofPattern("dd/MM/yyyy").format(LocalDate.now()));
         System.out.println("Agora são: " + DateTimeFormatter.ofPattern("HH:mm").format(LocalDateTime.now()));
-
     }
 }
