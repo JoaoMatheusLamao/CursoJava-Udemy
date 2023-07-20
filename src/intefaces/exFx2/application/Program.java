@@ -1,9 +1,9 @@
-package intefaces.exFixacao;
+package intefaces.exFx2.application;
 
-import intefaces.exFixacao.entities.Contract;
+import intefaces.exFx2.entities.Contract;
 
-import intefaces.exFixacao.entities.Installment;
-import intefaces.exFixacao.services.ContractService;
+import intefaces.exFx2.entities.Installment;
+import intefaces.exFx2.services.ContractService;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

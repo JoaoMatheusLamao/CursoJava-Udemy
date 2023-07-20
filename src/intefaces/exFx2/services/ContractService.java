@@ -1,7 +1,7 @@
-package intefaces.exFixacao.services;
+package intefaces.exFx2.services;
 
-import intefaces.exFixacao.entities.Contract;
-import intefaces.exFixacao.entities.Installment;
+import intefaces.exFx2.entities.Contract;
+import intefaces.exFx2.entities.Installment;
 
 import java.time.LocalDate;
 

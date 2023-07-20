@@ -1,4 +1,4 @@
-package intefaces.entities;
+package intefaces.exFx1.entities;
 
 public class Invoice {
     private Double basicPayment;

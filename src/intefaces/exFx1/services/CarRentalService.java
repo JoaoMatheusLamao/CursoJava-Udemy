@@ -1,7 +1,7 @@
-package intefaces.services;
+package intefaces.exFx1.services;
 
-import intefaces.entities.CarRental;
-import intefaces.entities.Invoice;
+import intefaces.exFx1.entities.CarRental;
+import intefaces.exFx1.entities.Invoice;
 
 import java.time.Duration;
 

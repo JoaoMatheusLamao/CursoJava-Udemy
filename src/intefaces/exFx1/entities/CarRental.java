@@ -1,4 +1,4 @@
-package intefaces.entities;
+package intefaces.exFx1.entities;
 
 import java.time.LocalDateTime;
 

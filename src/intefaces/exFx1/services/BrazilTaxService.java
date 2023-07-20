@@ -1,4 +1,4 @@
-package intefaces.services;
+package intefaces.exFx1.services;
 
 public class BrazilTaxService{
     public static Double tax(Double amount){

@@ -1,8 +1,8 @@
-package intefaces.application;
+package intefaces.exFx1.application;
 
-import intefaces.entities.CarRental;
-import intefaces.entities.Vehicle;
-import intefaces.services.CarRentalService;
+import intefaces.exFx1.entities.CarRental;
+import intefaces.exFx1.entities.Vehicle;
+import intefaces.exFx1.services.CarRentalService;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

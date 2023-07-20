@@ -1,4 +1,4 @@
-package intefaces.exFixacao.services;
+package intefaces.exFx2.services;
 
 public interface OnlinePaymenteService {
     public Double paymenteFee(Double amount);

@@ -1,4 +1,4 @@
-package intefaces.exFixacao.services;
+package intefaces.exFx2.services;
 
 public class PaypalService implements OnlinePaymenteService{
     @Override
